@@ -1,0 +1,17 @@
+{
+	"Create React.FC component": {
+		"scope": "typescriptreact",
+		"prefix": "reactfc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"interface Props {",
+			"\t${1:props}",
+			"}",
+			"",
+			"export const ${2:Component}: React.FC<Props> = props => (",
+			"\t$0",
+			");"
+		]
+	}
+}
