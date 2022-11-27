@@ -12,7 +12,9 @@ body {
 
 #application {
     color: $font-color;
-    padding: 10px;
-    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-content {
+    padding: $site-padding;
 }
