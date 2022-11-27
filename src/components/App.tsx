@@ -1,9 +1,12 @@
 import React from "react";
+import { Layout } from "./Layout";
 
 export class App extends React.PureComponent{
     public render(): React.ReactNode {
         return (
-            <div>Work in progress</div>
+            <Layout>
+                This will be our page content.
+            </Layout>
         );
     }
 }
